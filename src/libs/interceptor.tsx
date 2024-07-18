@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://www.project-be-eight.vercel.app",
+  baseURL: "https://kimvi.app",
 });
 
 axiosInstance.interceptors.request.use((config) => {
