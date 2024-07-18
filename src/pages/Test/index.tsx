@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { RootState, useAppDispatch } from "../../store";
 import { login } from "../../redux/Login/service";
-import { useSelector } from "react-redux";
+import { useSelector } from "../../../node_modules/react-redux";
 
 const TestPage = () => {
   const { token } = useSelector((state: RootState) => state.auth);
