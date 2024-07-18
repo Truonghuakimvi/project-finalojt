@@ -9,7 +9,7 @@ export const login = createAsyncThunk(
   "auth/login",
   async (data: LoginCredentials) => {
     try {
-      const response = await axiosInstance.post(`/`, {
+      const response = await axiosInstance.post(`/employees/create`, {
         email: data.email,
         password: data.password,
       });
