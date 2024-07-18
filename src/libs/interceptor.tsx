@@ -1,7 +1,7 @@
-import axios from "../../node_modules/axios";
+import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "/api",
+  baseURL: "https://project-be-eight.vercel.app",
 });
 
 axiosInstance.interceptors.request.use((config) => {
