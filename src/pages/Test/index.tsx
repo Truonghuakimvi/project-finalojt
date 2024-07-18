@@ -15,7 +15,7 @@ const TestPage = () => {
   const [password, setPassword] = useState("");
 
   const handleLogin = async () => {
-    dispatch(login({ email, password }));
+    dispatch(login());
   };
   return (
     <div>
